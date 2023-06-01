@@ -1,0 +1,113 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .image-container{
+    width: 744px;
+    height: 667px;
+    background: url("../utils/Rectangle\ 15.png");
+    left: 20px;
+    margin-top: 35px;
+    margin-left: 20px;
+  
+    .logo-img{
+      width: 77px;
+      height: 28px;
+      margin-top: 27px;
+      margin-left: 25px;
+      background: url("../utils/Frame\ 45\ 2.png");
+    } 
+    .poster-text{
+      margin-top: 270px;
+      width: 475px;
+      height: 112px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 25px;
+      /* align-items: center; */
+      color: #FFFFFF;
+      font-family: 'Poppins';
+    
+      >h1{
+        letter-spacing: 0.03em;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+      }
+      >h3{
+        letter-spacing: 0.03em;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 40px;
+      }
+   }
+  }
+  .carousel-dots{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 50px;
+  
+    .rectangle-carousel{
+      width: 28px;
+      height: 6px;
+      margin: 0 2px ;
+      border-radius: 4px;
+      background-color: #FFFFFF;
+    }
+    .circle-carousel{
+      width: 6px;
+      height: 6px;
+      border-radius: 4px;
+      background-color: #BFBFBF;
+      margin: 0 2px ;
+    }
+  }
+  .poster-footer{
+  
+      display: flex;
+      justify-content: space-between;
+      margin: 125px 10px 15px 15px ;
+      
+    .website-name{
+      display: flex;
+      margin-left: 10px;
+      >img{
+        width: 19px;
+        height: 18px;
+        margin-right: 2px;
+      }
+      >h3{
+        width: 84px;
+        height: 18px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #BFBFBF;
+        ;
+      }
+    }
+    .socialmedia-handles{
+      display: flex;
+      flex-direction: row;
+      color: #BFBFBF;
+      margin-right: 15px;
+        >img {
+          width: 18px;
+          height: 18px;
+        }
+        .linkedin{
+          margin: 0px 5px;
+        }
+        .facebook{
+          width: 10px;
+          margin: 0px 5px;
+        }
+        .insta{
+          margin: 0px 5px;
+        }
+    }
+  }

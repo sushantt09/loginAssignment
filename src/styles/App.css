@@ -1,0 +1,121 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Login-ui{
+  height: 555px;
+  width: 400px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+.login-heading{
+  margin-top: 100px;
+  >h1{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #020100;
+  }
+  >h3{
+    font-family: 'Inter';
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+  }
+  .heading-img{
+    width: 61px;
+    height: 49px;
+    background: url("../utils/petals\ 1.png");
+    margin-left: 180px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; 
+
+  .login-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    margin: 50px 0 0 10px;
+
+    width: 400px;
+    height: 53px;
+    background: #020100;
+    box-shadow: 0px 20px 32px rgba(2, 1, 0, 0.42);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.14px;
+    color: #FFFFFF;
+  }
+  > a{
+    width: 114px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #667085;
+    opacity: 0.5;
+    margin-left: auto;
+  }
+}
+
+.sign-up{
+  margin-top: 60px;
+  align-items: center;
+  margin-left: 70px;
+  width: 280px;
+  height: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #667085;
+  >a {
+    color: #08A593;
+    cursor: pointer;
+  }
+}
+
+input{
+  box-sizing: border-box;
+  margin: 15px 10px 15px 10px ;
+  padding-left: 15px;
+  /* position: absolute; */
+  width: 400px;
+  height: 49px;
+  left: 780px;
+  top: 219px;
+  /* text-align: center; */
+  opacity: 0.45;
+  border: 1px solid #464660;
+  border-radius: 10px;
+}
+
